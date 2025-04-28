@@ -4,9 +4,14 @@
     ViewData["Title"] = "Profile";
 }
 
-<h1>Profile Page</h1>
-
-<div>
-    <p><strong>Username:</strong> @Model.UserName</p>
-    <p><strong>Email:</strong> @Model.Email</p>
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h2>Profile Details</h2>
+        </div>
+        <div class="card-body">
+            <p><strong>Username:</strong> @Model.UserName</p>
+            <p><strong>Email:</strong> @Model.Email</p>
+        </div>
+    </div>
 </div>
